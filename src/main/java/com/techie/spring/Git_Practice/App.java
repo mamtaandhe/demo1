@@ -8,6 +8,9 @@ public class App
 {
 	public void addData(String data) {
 		System.out.println(data);
+		if(data.equals("mamta")){
+			System.out.println("welcome");
+		}
 	}
     public static void main( String[] args )
     {
